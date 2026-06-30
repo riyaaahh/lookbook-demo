@@ -14,8 +14,7 @@ export const heroContent = {
     'Where artistry meets elegance. Experience bespoke beauty treatments crafted for the discerning individual.',
   ctaPrimary: 'Book Appointment',
   ctaSecondary: 'Explore Services',
-  image:
-    'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=80&auto=format&fit=crop',
+  image: '/instagram/post-01.jpg',
 }
 
 export const services = [
@@ -24,8 +23,7 @@ export const services = [
     title: 'Hair',
     description:
       'Precision cuts, bespoke colour, keratin treatments, and signature styling by master stylists.',
-    image:
-      'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80&auto=format&fit=crop',
+    image: '/instagram/post-05.jpg',
     features: ['Cut & Style', 'Colour & Highlights', 'Keratin & Treatments'],
   },
   {
@@ -33,8 +31,7 @@ export const services = [
     title: 'Beauty',
     description:
       'Rejuvenating facials, skin therapies, and holistic wellness rituals tailored to your skin.',
-    image:
-      'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80&auto=format&fit=crop',
+    image: '/instagram/post-10.jpg',
     features: ['Facials', 'Skin Treatments', 'Wellness Rituals'],
   },
   {
@@ -42,8 +39,7 @@ export const services = [
     title: 'Makeup',
     description:
       'Editorial and everyday artistry using premium products for a flawless, luminous finish.',
-    image:
-      'https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&q=80&auto=format&fit=crop',
+    image: '/instagram/post-02.jpg',
     features: ['Editorial', 'Evening Glam', 'Special Occasions'],
   },
   {
@@ -51,8 +47,7 @@ export const services = [
     title: 'Nail Art',
     description:
       'Luxurious manicures, pedicures, and bespoke nail designs executed with meticulous detail.',
-    image:
-      'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80&auto=format&fit=crop',
+    image: '/instagram/post-04.jpg',
     features: ['Manicure', 'Pedicure', 'Custom Nail Art'],
   },
   {
@@ -60,8 +55,7 @@ export const services = [
     title: 'Bridal',
     description:
       'Complete bridal packages — hair, makeup, and beauty — for your most unforgettable day.',
-    image:
-      'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80&auto=format&fit=crop',
+    image: '/instagram/post-01.jpg',
     features: ['Bridal Hair', 'Bridal Makeup', 'Pre-Wedding Packages'],
   },
 ]
@@ -93,52 +87,15 @@ export const whyChooseUs = [
   },
 ]
 
-export const galleryImages = [
-  {
-    id: 'salon-interior',
-    src: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80&auto=format&fit=crop',
-    alt: 'Salon interior with elegant styling chairs',
-    span: 'col-span-1 aspect-square lg:col-span-2 lg:row-span-2 lg:aspect-auto',
-  },
-  {
-    id: 'hair-styling',
-    src: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&q=80&auto=format&fit=crop',
-    alt: 'Hair styling in progress',
-    span: 'col-span-1 aspect-square lg:col-span-1 lg:row-span-1 lg:aspect-auto',
-  },
-  {
-    id: 'beauty-products',
-    src: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800&q=80&auto=format&fit=crop',
-    alt: 'Luxury beauty products',
-    span: 'col-span-1 aspect-square lg:col-span-1 lg:row-span-1 lg:aspect-auto',
-  },
-  {
-    id: 'makeup',
-    src: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80&auto=format&fit=crop',
-    alt: 'Makeup application',
-    span: 'col-span-1 aspect-square lg:col-span-1 lg:row-span-2 lg:aspect-auto',
-  },
-  {
-    id: 'nail-art',
-    src: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&q=80&auto=format&fit=crop',
-    alt: 'Nail art detail',
-    span: 'col-span-1 aspect-square lg:col-span-1 lg:row-span-1 lg:aspect-auto',
-  },
-  {
-    id: 'bridal',
-    src: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80&auto=format&fit=crop',
-    alt: 'Bridal hair styling',
-    span: 'col-span-2 aspect-[2/1] lg:col-span-2 lg:row-span-1 lg:aspect-auto',
-  },
-]
+export const galleryImages = []
 
 export const aboutContent = {
   eyebrow: 'Our Story',
-  title: 'Crafting Beauty Since 2010',
+  title: 'Crafting Beauty in Malappuram',
   paragraphs: [
-    'Look Book was born from a passion for elevating the salon experience into an art form. What began as an intimate studio has evolved into a destination for those who seek uncompromising quality and refined aesthetics.',
-    'Our philosophy is simple: every client deserves to feel extraordinary. We combine time-honoured techniques with contemporary innovation to deliver results that transcend trends.',
-    'Step into our sanctuary and discover why discerning clients trust Look Book for their most important moments.',
+    'Look Book is Malappuram\'s destination for premium hair, beauty, makeup, and nail art — offering a luxury salon experience at affordable prices.',
+    'From everyday transformations to stunning bridal looks, our team brings artistry, care, and the latest trends to every client who walks through our doors.',
+    'Follow us on Instagram @lookbookmalappuram to see our latest work, reels, and behind-the-scenes moments.',
   ],
   stats: [
     { value: '15+', label: 'Years of Excellence' },
@@ -146,8 +103,7 @@ export const aboutContent = {
     { value: '25', label: 'Expert Artists' },
     { value: '12', label: 'Industry Awards' },
   ],
-  image:
-    'https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=800&q=80&auto=format&fit=crop',
+  image: '/instagram/post-06.jpg',
 }
 
 export const testimonials = [
@@ -176,14 +132,15 @@ export const testimonials = [
 
 export const contactInfo = {
   phone: '+91 98765 43210',
-  email: 'hello@lookbooksalon.com',
-  address: '42 Luxury Lane, Bandra West, Mumbai 400050',
+  email: 'lookbookmalappuram@gmail.com',
+  address: 'Jubilee Road, Malappuram, Kerala',
   hours: 'Mon – Sat: 10:00 AM – 8:00 PM | Sun: 11:00 AM – 6:00 PM',
   whatsapp: 'https://wa.me/919876543210',
-  instagram: 'https://instagram.com/lookbooksalon',
+  instagram: 'https://www.instagram.com/lookbookmalappuram/',
+  instagramHandle: '@lookbookmalappuram',
   mapsEmbed:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.664887887887!2d72.8267!3d19.0596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDAzJzM0LjYiTiA3MsKwNDknMzYuMSJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
-  mapsLink: 'https://maps.google.com/?q=Look+Book+Salon+Mumbai',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.5!2d76.071!3d11.051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDAzJzA0LjQiTiA3NsKwMDQnMTUuNiJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
+  mapsLink: 'https://maps.google.com/?q=Look+Book+Salon+Malappuram',
 }
 
 export const footerContent = {

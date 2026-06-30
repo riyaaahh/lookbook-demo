@@ -15,9 +15,9 @@ export default function Hero() {
           className="h-full w-full scale-105 object-cover"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-brand-deep/80" />
-        <div className="absolute inset-0 bg-linear-to-b from-brand-deep/90 via-brand-deep/70 to-brand-deep/95" />
-        <div className="absolute inset-0 bg-linear-to-r from-brand-deep/35 via-transparent to-brand-deep/35" />
+        <div className="absolute inset-0 bg-brand-deep/55" />
+        <div className="absolute inset-0 bg-linear-to-b from-brand-deep/65 via-brand-deep/45 to-brand-deep/70" />
+        <div className="absolute inset-0 bg-linear-to-r from-brand-deep/25 via-transparent to-brand-deep/25" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 py-36 text-center md:px-10">
