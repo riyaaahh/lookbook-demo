@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  /* Feminine lavender palette */
+  --color-brand-ocean: #b8a9c9;
+  --color-brand-sand: #f9f8fb;
+  --color-brand-mist: #e9e1f0;
+  --color-brand-sunbeam: #d4a5b7;
+
+  /* Semantic aliases */
+  --color-brand-moss: #b8a9c9;
+  --color-brand-beige: #f9f8fb;
+  --color-brand-midnight: #e9e1f0;
+  --color-brand-rose: #d4a5b7;
+
+  /* Text & surfaces */
+  --color-brand-dark: #2d2a32;
+  --color-brand-deep: #1a1720;
+  --color-brand-surface: #f3f0f7;
+  --color-brand-on-dark: #f9f8fb;
+  --color-brand-moss-light: #cfc3db;
+  --color-brand-moss-dark: #7a6b94;
+  --color-brand-rose-light: #e8c4d0;
+  --color-brand-rose-dark: #a06878;
+  --color-brand-muted: #5c5864;
+  --color-brand-muted-dark: #4a4652;
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-accent: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --ease-elegant: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 bg-brand-sand font-body text-brand-dark antialiased;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+  }
+
+  #root {
+    @apply min-h-svh w-full;
+  }
+
+  ::selection {
+    @apply bg-brand-moss-dark/40 text-brand-dark;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-24 md:py-32 lg:py-36;
+  }
+
+  .section-container {
+    @apply mx-auto max-w-6xl px-6 md:px-10 lg:px-12;
+  }
+
+  .elegant-card {
+    @apply bg-brand-sand/80 shadow-sm shadow-brand-dark/5 backdrop-blur-sm transition-all duration-500;
+  }
+
+  .elegant-border {
+    @apply border border-brand-moss-dark/15;
+  }
+
+  .ornament {
+    @apply font-accent text-brand-moss-dark/60 tracking-[0.4em];
+  }
+
+  .text-gradient-accent {
+    @apply bg-linear-to-r from-brand-moss-dark via-brand-rose-dark to-brand-moss-dark bg-clip-text text-transparent;
+  }
+
+  .text-on-dark {
+    color: var(--color-brand-on-dark);
+    text-shadow: 0 1px 3px rgb(26 23 32 / 0.55);
+  }
+
+  .text-on-dark-subtle {
+    color: rgb(249 248 251 / 0.92);
+    text-shadow: 0 1px 2px rgb(26 23 32 / 0.45);
+  }
+
+  .hover-lift {
+    @apply transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-md hover:shadow-brand-dark/8;
+  }
+}
